@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6CFB3EBE-B561-41A0-A264-E2BFB8CD4E54}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hy.Erp.system.IDao</RootNamespace>
+    <AssemblyName>Hy.Erp.system.IDao</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HP.Mapper.Common">
+      <HintPath>..\Lib\HP.Mapper.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="HP.Mapper.Entity">
+      <HintPath>..\Lib\HP.Mapper.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IAGENTSDao.cs" />
+    <Compile Include="IBOOKSDao.cs" />
+    <Compile Include="IBOOKS_AGENTSDao.cs" />
+    <Compile Include="IBOOK_ORDERDao.cs" />
+    <Compile Include="IBUNDLEDao.cs" />
+    <Compile Include="ICATEGORIESDao.cs" />
+    <Compile Include="IDATA_DICTIONARYDao.cs" />
+    <Compile Include="IDATA_TYPEDao.cs" />
+    <Compile Include="IDEPTDao.cs" />
+    <Compile Include="IERROR_LOGGERDao.cs" />
+    <Compile Include="INOTICEDao.cs" />
+    <Compile Include="INOTICE_BOOKDao.cs" />
+    <Compile Include="IORDERFROMDao.cs" />
+    <Compile Include="IORGANIZATIONDao.cs" />
+    <Compile Include="IPRESSDao.cs" />
+    <Compile Include="IPURCHASEDao.cs" />
+    <Compile Include="IRIGHTSDao.cs" />
+    <Compile Include="IROLEDao.cs" />
+    <Compile Include="IROLE_RIGHTSDao.cs" />
+    <Compile Include="ISTANDARDDao.cs" />
+    <Compile Include="ISTUDENTSDao.cs" />
+    <Compile Include="ISYS_DATABASE_BACKUPDao.cs" />
+    <Compile Include="ISYS_LOGGERDao.cs" />
+    <Compile Include="ISYS_PARAMETERDao.cs" />
+    <Compile Include="ITEACHERDao.cs" />
+    <Compile Include="ITEXT_BOOKDao.cs" />
+    <Compile Include="IUSERDao.cs" />
+    <Compile Include="IUSER_ROLEDao.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hy.Erp.system.Entity\Hy.Erp.system.Entity.csproj">
+      <Project>{DAE80C5B-9D8C-46F6-9BAC-CA7D5021A3F8}</Project>
+      <Name>Hy.Erp.system.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

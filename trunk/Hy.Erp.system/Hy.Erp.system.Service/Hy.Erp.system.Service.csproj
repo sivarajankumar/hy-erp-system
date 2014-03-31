@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1FD61D92-065C-4C61-94F8-0807E7B357BA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hy.Erp.system.Service</RootNamespace>
+    <AssemblyName>Hy.Erp.system.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HP.Mapper.Common">
+      <HintPath>..\Lib\HP.Mapper.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="HP.Mapper.Core">
+      <HintPath>..\Lib\HP.Mapper.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="HP.Mapper.Data">
+      <HintPath>..\Lib\HP.Mapper.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="HP.Mapper.Entity">
+      <HintPath>..\Lib\HP.Mapper.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="HP.Mapper.Service">
+      <HintPath>..\Lib\HP.Mapper.Service.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AGENTSService.cs" />
+    <Compile Include="BOOKSService.cs" />
+    <Compile Include="BOOKS_AGENTSService.cs" />
+    <Compile Include="BOOK_ORDERService.cs" />
+    <Compile Include="BUNDLEService.cs" />
+    <Compile Include="CATEGORIESService.cs" />
+    <Compile Include="DATA_DICTIONARYService.cs" />
+    <Compile Include="DATA_TYPEService.cs" />
+    <Compile Include="DEPTService.cs" />
+    <Compile Include="ERROR_LOGGERService.cs" />
+    <Compile Include="NOTICEService.cs" />
+    <Compile Include="NOTICE_BOOKService.cs" />
+    <Compile Include="ORDERFROMService.cs" />
+    <Compile Include="ORGANIZATIONService.cs" />
+    <Compile Include="PRESSService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PURCHASEService.cs" />
+    <Compile Include="RIGHTSService.cs" />
+    <Compile Include="ROLEService.cs" />
+    <Compile Include="ROLE_RIGHTSService.cs" />
+    <Compile Include="STANDARDService.cs" />
+    <Compile Include="STUDENTSService.cs" />
+    <Compile Include="Support\SupportService.cs" />
+    <Compile Include="SYS_DATABASE_BACKUPService.cs" />
+    <Compile Include="SYS_LOGGERService.cs" />
+    <Compile Include="SYS_PARAMETERService.cs" />
+    <Compile Include="TEACHERService.cs" />
+    <Compile Include="TEXT_BOOKService.cs" />
+    <Compile Include="USERService.cs" />
+    <Compile Include="USER_ROLEService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hy.Erp.system.Common\Hy.Erp.system.Common.csproj">
+      <Project>{B3FB3E33-B3AE-487C-86E5-FF92C79810F9}</Project>
+      <Name>Hy.Erp.system.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hy.Erp.system.Dao\Hy.Erp.system.Dao.csproj">
+      <Project>{98EB31EC-337E-459A-871B-6B7CC710FFB5}</Project>
+      <Name>Hy.Erp.system.Dao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hy.Erp.system.Entity\Hy.Erp.system.Entity.csproj">
+      <Project>{DAE80C5B-9D8C-46F6-9BAC-CA7D5021A3F8}</Project>
+      <Name>Hy.Erp.system.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hy.Erp.system.IDao\Hy.Erp.system.IDao.csproj">
+      <Project>{6CFB3EBE-B561-41A0-A264-E2BFB8CD4E54}</Project>
+      <Name>Hy.Erp.system.IDao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hy.Erp.system.IService\Hy.Erp.system.IService.csproj">
+      <Project>{E3FBDAAB-DB75-45BA-B38E-B2926DF8DCA7}</Project>
+      <Name>Hy.Erp.system.IService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

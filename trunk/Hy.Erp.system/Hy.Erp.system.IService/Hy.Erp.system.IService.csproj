@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E3FBDAAB-DB75-45BA-B38E-B2926DF8DCA7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hy.Erp.system.IService</RootNamespace>
+    <AssemblyName>Hy.Erp.system.IService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HP.Mapper.Common">
+      <HintPath>..\Lib\HP.Mapper.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="HP.Mapper.Entity">
+      <HintPath>..\Lib\HP.Mapper.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IAGENTSService.cs" />
+    <Compile Include="IBOOKSService.cs" />
+    <Compile Include="IBOOKS_AGENTSService.cs" />
+    <Compile Include="IBOOK_ORDERService.cs" />
+    <Compile Include="IBUNDLEService.cs" />
+    <Compile Include="ICATEGORIESService.cs" />
+    <Compile Include="IDATA_DICTIONARYService.cs" />
+    <Compile Include="IDATA_TYPEService.cs" />
+    <Compile Include="IDEPTService.cs" />
+    <Compile Include="IERROR_LOGGERService.cs" />
+    <Compile Include="INOTICEService.cs" />
+    <Compile Include="INOTICE_BOOKService.cs" />
+    <Compile Include="IORDERFROMService.cs" />
+    <Compile Include="IORGANIZATIONService.cs" />
+    <Compile Include="IPRESSService.cs" />
+    <Compile Include="IPURCHASEService.cs" />
+    <Compile Include="IRIGHTSService.cs" />
+    <Compile Include="IROLEService.cs" />
+    <Compile Include="IROLE_RIGHTSService.cs" />
+    <Compile Include="ISTANDARDService.cs" />
+    <Compile Include="ISTUDENTSService.cs" />
+    <Compile Include="ISYS_DATABASE_BACKUPService.cs" />
+    <Compile Include="ISYS_LOGGERService.cs" />
+    <Compile Include="ISYS_PARAMETERService.cs" />
+    <Compile Include="ITEACHERService.cs" />
+    <Compile Include="ITEXT_BOOKService.cs" />
+    <Compile Include="IUSERService.cs" />
+    <Compile Include="IUSER_ROLEService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hy.Erp.system.Entity\Hy.Erp.system.Entity.csproj">
+      <Project>{DAE80C5B-9D8C-46F6-9BAC-CA7D5021A3F8}</Project>
+      <Name>Hy.Erp.system.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
