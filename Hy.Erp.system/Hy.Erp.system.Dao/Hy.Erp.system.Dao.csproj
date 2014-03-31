@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{98EB31EC-337E-459A-871B-6B7CC710FFB5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hy.Erp.system.Dao</RootNamespace>
+    <AssemblyName>Hy.Erp.system.Dao</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HP.Mapper.Common">
+      <HintPath>..\Lib\HP.Mapper.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="HP.Mapper.Core">
+      <HintPath>..\Lib\HP.Mapper.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="HP.Mapper.Entity">
+      <HintPath>..\Lib\HP.Mapper.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AGENTSDao.cs" />
+    <Compile Include="BOOKSDao.cs" />
+    <Compile Include="BOOKS_AGENTSDao.cs" />
+    <Compile Include="BOOK_ORDERDao.cs" />
+    <Compile Include="BUNDLEDao.cs" />
+    <Compile Include="CATEGORIESDao.cs" />
+    <Compile Include="DATA_DICTIONARYDao.cs" />
+    <Compile Include="DATA_TYPEDao.cs" />
+    <Compile Include="DEPTDao.cs" />
+    <Compile Include="ERROR_LOGGERDao.cs" />
+    <Compile Include="NOTICEDao.cs" />
+    <Compile Include="NOTICE_BOOKDao.cs" />
+    <Compile Include="ORDERFROMDao.cs" />
+    <Compile Include="ORGANIZATIONDao.cs" />
+    <Compile Include="PRESSDao.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PURCHASEDao.cs" />
+    <Compile Include="RIGHTSDao.cs" />
+    <Compile Include="ROLEDao.cs" />
+    <Compile Include="ROLE_RIGHTSDao.cs" />
+    <Compile Include="STANDARDDao.cs" />
+    <Compile Include="STUDENTSDao.cs" />
+    <Compile Include="SYS_DATABASE_BACKUPDao.cs" />
+    <Compile Include="SYS_LOGGERDao.cs" />
+    <Compile Include="SYS_PARAMETERDao.cs" />
+    <Compile Include="TEACHERDao.cs" />
+    <Compile Include="TEXT_BOOKDao.cs" />
+    <Compile Include="USERDao.cs" />
+    <Compile Include="USER_ROLEDao.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hy.Erp.system.Entity\Hy.Erp.system.Entity.csproj">
+      <Project>{DAE80C5B-9D8C-46F6-9BAC-CA7D5021A3F8}</Project>
+      <Name>Hy.Erp.system.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hy.Erp.system.IDao\Hy.Erp.system.IDao.csproj">
+      <Project>{6CFB3EBE-B561-41A0-A264-E2BFB8CD4E54}</Project>
+      <Name>Hy.Erp.system.IDao</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

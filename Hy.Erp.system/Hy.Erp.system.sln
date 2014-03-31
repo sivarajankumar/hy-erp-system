@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hy.Erp.system.Entity", "Hy.Erp.system.Entity\Hy.Erp.system.Entity.csproj", "{DAE80C5B-9D8C-46F6-9BAC-CA7D5021A3F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hy.Erp.system.IDao", "Hy.Erp.system.IDao\Hy.Erp.system.IDao.csproj", "{6CFB3EBE-B561-41A0-A264-E2BFB8CD4E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hy.Erp.system.Dao", "Hy.Erp.system.Dao\Hy.Erp.system.Dao.csproj", "{98EB31EC-337E-459A-871B-6B7CC710FFB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hy.Erp.system.IService", "Hy.Erp.system.IService\Hy.Erp.system.IService.csproj", "{E3FBDAAB-DB75-45BA-B38E-B2926DF8DCA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hy.Erp.system.Service", "Hy.Erp.system.Service\Hy.Erp.system.Service.csproj", "{1FD61D92-065C-4C61-94F8-0807E7B357BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hy.Erp.system.Common", "Hy.Erp.system.Common\Hy.Erp.system.Common.csproj", "{B3FB3E33-B3AE-487C-86E5-FF92C79810F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{109F319A-6BF7-47DD-A4F0-DEC4BEA756FA}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\HP.Mapper.Common.dll = Lib\HP.Mapper.Common.dll
+		Lib\HP.Mapper.Common.pdb = Lib\HP.Mapper.Common.pdb
+		Lib\HP.Mapper.Core.dll = Lib\HP.Mapper.Core.dll
+		Lib\HP.Mapper.Core.pdb = Lib\HP.Mapper.Core.pdb
+		Lib\HP.Mapper.Data.dll = Lib\HP.Mapper.Data.dll
+		Lib\HP.Mapper.Data.pdb = Lib\HP.Mapper.Data.pdb
+		Lib\HP.Mapper.Entity.dll = Lib\HP.Mapper.Entity.dll
+		Lib\HP.Mapper.Entity.pdb = Lib\HP.Mapper.Entity.pdb
+		Lib\HP.Mapper.Service.dll = Lib\HP.Mapper.Service.dll
+		Lib\HP.Mapper.Service.pdb = Lib\HP.Mapper.Service.pdb
+		Lib\log4net.dll = Lib\log4net.dll
+		Lib\Newtonsoft.Json.dll = Lib\Newtonsoft.Json.dll
+		Lib\RazorGenerator.Mvc.dll = Lib\RazorGenerator.Mvc.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE80C5B-9D8C-46F6-9BAC-CA7D5021A3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE80C5B-9D8C-46F6-9BAC-CA7D5021A3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE80C5B-9D8C-46F6-9BAC-CA7D5021A3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE80C5B-9D8C-46F6-9BAC-CA7D5021A3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CFB3EBE-B561-41A0-A264-E2BFB8CD4E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFB3EBE-B561-41A0-A264-E2BFB8CD4E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFB3EBE-B561-41A0-A264-E2BFB8CD4E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFB3EBE-B561-41A0-A264-E2BFB8CD4E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98EB31EC-337E-459A-871B-6B7CC710FFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EB31EC-337E-459A-871B-6B7CC710FFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EB31EC-337E-459A-871B-6B7CC710FFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EB31EC-337E-459A-871B-6B7CC710FFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3FBDAAB-DB75-45BA-B38E-B2926DF8DCA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FBDAAB-DB75-45BA-B38E-B2926DF8DCA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FBDAAB-DB75-45BA-B38E-B2926DF8DCA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FBDAAB-DB75-45BA-B38E-B2926DF8DCA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD61D92-065C-4C61-94F8-0807E7B357BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD61D92-065C-4C61-94F8-0807E7B357BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD61D92-065C-4C61-94F8-0807E7B357BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD61D92-065C-4C61-94F8-0807E7B357BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3FB3E33-B3AE-487C-86E5-FF92C79810F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FB3E33-B3AE-487C-86E5-FF92C79810F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FB3E33-B3AE-487C-86E5-FF92C79810F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FB3E33-B3AE-487C-86E5-FF92C79810F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

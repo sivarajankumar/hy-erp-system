@@ -1,0 +1,10 @@
+E:\lihp\Coder\VS2010\Hy.Erp.system.Solution\Hy.Erp.system.Common\bin\Debug\Hy.Erp.system.Common.dll
+E:\lihp\Coder\VS2010\Hy.Erp.system.Solution\Hy.Erp.system.Common\bin\Debug\Hy.Erp.system.Common.pdb
+E:\lihp\Coder\VS2010\Hy.Erp.system.Solution\Hy.Erp.system.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\lihp\Coder\VS2010\Hy.Erp.system.Solution\Hy.Erp.system.Common\obj\Debug\Hy.Erp.system.Common.dll
+E:\lihp\Coder\VS2010\Hy.Erp.system.Solution\Hy.Erp.system.Common\obj\Debug\Hy.Erp.system.Common.pdb
+E:\外包\google_svn\hy-erp-system\Hy.Erp.system\Hy.Erp.system.Common\bin\Debug\Hy.Erp.system.Common.dll
+E:\外包\google_svn\hy-erp-system\Hy.Erp.system\Hy.Erp.system.Common\bin\Debug\Hy.Erp.system.Common.pdb
+E:\外包\google_svn\hy-erp-system\Hy.Erp.system\Hy.Erp.system.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\外包\google_svn\hy-erp-system\Hy.Erp.system\Hy.Erp.system.Common\obj\Debug\Hy.Erp.system.Common.dll
+E:\外包\google_svn\hy-erp-system\Hy.Erp.system\Hy.Erp.system.Common\obj\Debug\Hy.Erp.system.Common.pdb
